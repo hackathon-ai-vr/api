@@ -1,4 +1,5 @@
 import 'module-alias/register';
+import 'dotenv/config'
 import { App } from "./src/config/App";
 
 const app = new App()
